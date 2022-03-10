@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table</title>
+        <style>
+            body
+            {
+                margin: 0;
+
+            }
+            p
+            {
+                font-size: 20px;
+                padding-left: 35px;
+                padding-right: 35px;
+            }
+            h1
+            {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            ul
+            {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                background-color: black;
+                overflow: hidden;
+            }
+            li
+            {
+                float: left;
+            }
+            li a
+            {
+                display: block;
+                color: white;
+                text-decoration: none;
+                text-align: center;
+                padding: 14px 16px;
+            }
+            li a:hover:not(.active)
+            {
+                background-color: #221C40;
+            }
+            .active
+            {
+                background-color: #745AAC;
+            }
+            table
+            {
+                border: 5px solid;
+                text-align: center;
+                width: 100%;
+            }
+            th, td
+            {
+                border: 1px solid;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="table.html" class="active">Table</a></li>
+            <li><a href="mapping.html">Mapping</a></li>
+        </ul>
+        <h1>Table</h1>
+        <div style="margin: auto; width: 50%;">
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Monday</th>
+                    <th>Thrusday</th>
+                    <th>Wednsday</th>
+                    <th>Friday</th>
+                    <th>Saterday</th>
+                </tr>
+                <tr>
+                    <td>1:00 PM</td>
+                    <td rowspan="2" style="background-color: bisque;"> HTML</td>
+                    <td></td>
+                    <td rowspan="2" style="background-color: bisque;"> HTML</td>
+                    <td rowspan="8" style="background-color: bisque;"> HTML <br> by Apps</td>
+                    <td rowspan="2" style="background-color: bisque;"> HTML</td>
+                </tr>
+                <tr>
+                    <td>1:30 PM</td>
+                    <td rowspan="2" style="background-color: blueviolet;">HW</td>
+                </tr>
+                <tr>
+                    <td>2:00 PM</td>
+                    <td rowspan="3" style="background-color: aqua;">CSS</td>
+                    <td rowspan="3" style="background-color: aqua;">CSS</td>
+                    <td rowspan="3" style="background-color: aqua;">CSS</td>
+                </tr>
+                <tr>
+                    <td>2:30 PM</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3:00 PM</td>
+                    <td rowspan="3" style="background-color: blueviolet;">HW</td>
+                </tr>
+                <tr>
+                    <td>3:30 PM</td>
+                    <td rowspan="3" style="background-color: yellowgreen;"> C.W</td>
+                    <td rowspan="3" style="background-color: yellowgreen;"> C.W</td>
+                    <td rowspan="3" style="background-color: yellowgreen;"> C.W</td>
+                </tr>
+                <tr>
+                    <td>4:00 PM</td>
+                </tr>
+                <tr>
+                    <td>4:30 PM</td>
+                    <td></td>
+                </tr>
+    
+            </table>
+        </div>
+    </body>
+</html>
